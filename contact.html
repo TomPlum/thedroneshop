@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TheDroneShop&trade;</title>
+<link rel="icon" type="image/png" href="images/favicon.png" sizes="50x50">
+<link href="css/styles.css" id="Standard" rel="stylesheet" type="text/css" />
+<!--<link href="css/HighContrast.css" id="HighContrast" rel="alternative stylesheet" type="text/css" />-->
+<link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans' rel='stylesheet' type='text/css'>
+<style> #map{width: 530px; height: 250px;}</style>  
+<style> #map2{width: 530px; height: 250px;}</style>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+		var mapDiv2 = document.getElementById('map2');
+        var map = new google.maps.Map(mapDiv, {center: {lat: 47.275567, lng: -1.592757}, zoom: 16});	
+		var map2 = new google.maps.Map(mapDiv2, {center: {lat: 53.663382, lng: -2.720655}, zoom: 16}); 
+		
+		var marker = new google.maps.Marker({position: {lat: 47.275567, lng: -1.592757}, icon: "images/favicon.png", animation: google.maps.Animation.BOUNCE});
+		var marker2 = new google.maps.Marker({position: {lat: 53.663382, lng: -2.720655}, icon: "images/favicon.png", animation: google.maps.Animation.BOUNCE});
+		marker.setMap(map);
+		marker2.setMap(map2);
+		
+		var infowindow = new google.maps.InfoWindow({content: "TheDroneShop&trade;"});
+		infowindow.open(map, marker);
+		var infowindow2 = new google.maps.InfoWindow({content: "TheDroneShop&trade;"});
+		infowindow2.open(map2, marker2);
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+</head>
+<body>
+<div class="social-wrapper">
+  <div class="row">
+    <ul>
+      <li><a href="https://www.youtube.com"><img src="images/social-5.jpg" alt="YouTube" /></a></li>
+      <li><a href="https://www.facebook.com/TomPlumpton42"><img src="images/social-2.jpg" alt="Facebook" /></a></li>
+      <li><a href="https://twitter.com/tomplumdesigns"><img src="images/social-3.jpg" alt="TomPlumDesigns" /></a></li>
+      <li><a href="https://gb.linkedin.com/"><img src="images/social-4.jpg" alt="LinkedIn" /></a></li>
+      <li class="no-padding"><a target="blank" href="report/CPU4001 - Research Evidence.pdf"><img src="images/social-6.jpg" alt="Report" /></a></li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="clear"></div>
+<!-- end of SOCIAL ICONS -->
+<div class="header">
+  <div class="row">
+    <div class="logo">
+      <h1><a href="index.html" id="HomeButton2">THE</a><span id="SHOP"><a href="index.html" id="HomeButton">DRONE</a></span><a href="index.html" id="HomeButton3">SHOP</a><sup><a href="index.html" id="HomeButton4">&trade;</a></sup></h1> <!-- THEDRONESHOP Logo Text -->
+    </div>
+    <div class="menu">
+      <ul>
+       <li><a href="index.html">Home</a></li>
+        <li> <a href="prices.html">Prices</a> </li>       
+        <li><a href="gallery.html">Gallery</a> </li>  
+        <li><a href="about.html">About</a></li> 
+        <li><a href="glossary.html">Glossary</a></li>       
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<!-- end of MENU WRAPPER -->
+<div class="page padding-bottom">
+  <div class="content_wrap">
+    <div class="left-panel">
+      <div class="generic-content">
+        <div class="title">
+          <h1>CONTACT US</h1>
+          <h2 class="HeadWhite">If you would like to collect a drone in-store, or simply browse our wares. Please find the address details to both of our stores below.</h2>
+        </div>
+        <div class="content">
+          <div class="address martop">
+            <div class="panel">
+              <div class="title">
+                <h1>Store 1 - France:</h1>
+              </div>
+              <div class="content">  					              
+                <div id="map"></div>
+                <br><br />
+                <p class="whitetext">Email:<a href="http://www.google.com"> sales@thedroneshop.com</a></p>
+                <p class="whitetext">Telephone:<a href="http://www.google.com"> +33 2 53 35 51 11</a></p>
+                <p class="whitetext">Address:<a href="http://www.google.com"> 1 Rue Pasteur, 44119 Treillières, France</a></p>
+              </div>
+            </div>
+            <div class="panel marginTop">
+              <div class="title">
+                <h1>Store 2 - United Kingdom:</h1>
+              </div>
+              <div class="content">
+               <div id="map2"></div>
+                <br><br />
+                <p class="whitetext">Email:<a href="http://www.google.com"> info@thedroneshop.com</a></p>
+                <p class="whitetext">Telephone: <a href="http://www.google.com"> 01257 450555</a></p>
+                <p class="whitetext">Address:<a href="http://www.google.com"> Units 8 - 9, Ashlea Farm Ind Estate, Dawber's Lane, Euxton, Chorley PR7 6EN</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="right-panel">
+      <div class="contact-panel">
+        <div class="title">
+          <h1>VIA EMAIL</h1>
+          <span>Please fill in the form below.</span></div>
+        <div class="form">
+          <ul>
+            <li>
+              <input type="text"  class="text-field" value="Name"/>
+            </li>
+            <li>
+              <input type="text"  class="text-field" value="Email"/>
+            </li>
+            <li>
+              <textarea class="textarea">Message
+</textarea>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+        <div class="controller">
+          <div class="buttons">
+            <h2><a href="#">SUBMIT</a></h2>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+      <div class="panel martop">
+        <div class="title">
+          <h1>OTHER DRONE SITES</h1>
+          <h2>See other sites that we are partnered with...</h2>
+        </div>
+        <div class="content">
+          <ul>
+            <li><a href="http://diydrones.com/">diydrones.com</a></li>
+            <li><a href="http://ardrone2.parrot.com/">ardrone2.parrot.com</a></li>
+            <li><a href="http://dronelife.com/">dronelife.com</a></li>
+            <li><a href="http://www.airbornedrones.co/?gclid=CIPw8vu0k8sCFTUW0wodot8Mqw">airbornedrones.com</a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+      <div class="contact-panel padding-bottm">
+        <div class="title">
+          <h1>SEARCH THE SITE</h1>
+          <span>Search a keyword here...</span></div>
+        <div class="search">
+          <ul>
+            <li class="libg">
+              <input type="text" class="search-filed" value="search here..."/>
+            </li>
+            <li><img src="images/search-bt.jpg" alt="" /></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <!-- end of BOX WRAPPER -->
+  <div class="clear"></div>
+</div>
+<div class="footer-wrapper">
+  <div class="footer">
+    <div class="panel">
+      <div class="title">
+        <h1>ABOUT US</h1>
+        <h2>Who are we? What do we do?</h2>
+        <div class="content">
+          <p class="whitetext">We are a newly founded online website specifically
+           designed for selling drones. We stock only the best quality products and known brands. If you'd like to find out more, head over to the <a id="HomeButton5" href="about.html">'About'</a> page.</p>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="title">
+        <h1>CONTACT US</h1>
+        <h2>Via the following...</h2>
+        <div class="content">
+          <h3>M: 07736958320</h3>
+          <h3>E: queries@tds.com</h3>
+          <h3>F: 08456910911</h3>
+        </div>
+      </div>
+    </div>
+    <div class="panel border-right">
+      <div class="title">
+        <h1>STYLESHEETS</h1>
+        <h2>For those who are visually impaired.</h2>
+        <div class="content">
+          <p class="whitetext">Please select from the following Stylesheets. </p>
+          <form>
+          <ul class="ContrastButtonList">
+          	<li><label><input title="Click Me To Activate High Contrast Style Sheet" name="chooseStyle" value="HighContrast" class="HighContrast" type="radio"><h2 class="HighContrastText"> High Contrast</h2></label></li>
+            <li><label><input title="Click Me To Activate The Standard Style Sheet" name="chooseStyle" value="Standard" class="HighContrast" type="radio" checked><h2 id="StandardText"> Standard</h2></label></li>
+          </ul>
+          </form>
+            <script>
+    			(function() {
+      				var styles = {
+       				 HighContrast: $("#HighContrast").detach(),
+        			 Standard:  $("#Standard")
+     				 };
+
+      			$("input[name=chooseStyle]").click(function() {
+       			   var other = this.value === "HighContrast" ? "Standard" : "HighContrast";
+        			styles[this.value].appendTo('head');
+       				styles[other].detach();
+      				});
+   				 })();
+  			</script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<!--footer-wrapper-->
+<!-- end of WRAPPER -->
+</body>
+</html>

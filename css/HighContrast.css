@@ -1,0 +1,265 @@
+/*-------------------------------------------------
+					GLOBALS CLASSES
+-------------------------------------------------*/
+*{margin:0; padding:0;}
+body{ font-family: 'Open Sans', sans-serif; background:black;}
+img{border:0;}
+h1{font-family: 'Oswald', sans-serif; font-weight:normal;}
+#SHOP{color: #CC00CC;}
+#HomeButton:hover{color: yellow;}
+#HomeButton2{color: yellow;}
+#HomeButton2:hover{color: #CC00CC;}
+#HomeButton3{color:yellow;}
+#HomeButton3:hover{color: #CC00CC;}
+#HomeButton4:hover{color: yellow;}
+#HomeButton5{color:yellow;}
+#HomeButton5:hover{color: #CC00CC;}
+#AboutTxt{color:yellow;}
+#AboutTxt:hover{color: #CC00CC;}
+.QA{color: yellow;}
+p.yellowtext{color: yellow !important;}
+p greentext{color: #CC00CC; yellow-space: nowrap; display: inline-block;}
+h3.HeadGreen{color: #CC00CC !important;}
+h2.Headyellow{color: yellow !important;}
+p#new{color:#FF3700; float: right;}
+#code{color: red; text-decoration: none;}
+h2{font-family: 'Open Sans', sans-serif; font-weight:normal; font-size:16px;}
+h3{font-family: 'Open Sans', sans-serif; font-weight:normal; font-size:14px; color:#fff; }
+/*h2{font-family: 'Oswald', sans-serif; font-weight:normal; font-size:16px;}
+*/p{font-family: 'Open Sans', sans-serif; font-size:13px; padding-bottom:20px;}
+a{color:#CC00CC; text-decoration:none;}
+a:hover{ color:gray;}
+#video{border: 3px solid #9cff0;}
+#video2{border: 3px solid #9cff0;}
+#video3{border: 3px solid #9cff0;}
+#Image1{border: 1px solid #CC00CC;}
+#Image2{border: 1px solid #CC00CC;}
+#Image3{border: 1px solid #CC00CC;}
+#Image4{border: 1px solid #CC00CC;}
+#Image5{border: 1px solid #CC00CC;}
+#video{border: 1px solid #CC00CC;}
+/*h2{font-family: 'Open Sans', sans-serif;}
+*//*--------------------------------------- 
+				GENERAL CLASS
+----------------------------------------*/
+.marRight30{margin-right:30px;}
+.marLeft30{margin-left:30px;}
+.martop{margin-top:30px;}
+.marbottom30{ margin-bottom:30px;}
+.padding-bottom{padding-bottom:10px;}
+.floatRight{float:right;}
+.floatLeft{float:left;}
+.clear{clear:both;}
+.row{ width:970px; margin:0 auto; overflow:hidden; }
+.page{width:970px; background: black; margin:0 auto;}
+.wrapper{background:black; margin:0 auto; width:970px;}
+.panel{ overflow:hidden;}
+.controller{}
+.title{}
+.content{}
+.buttons{ width:80px; height:30px;}
+.form{}
+.text-field{ background:gray; width:200px; height:16px; padding:10px; border:none; font-family: 'Open Sans', sans-serif; font-size:13px; color:#fff;}
+.textarea{background:gray; width:200px; height:106px; padding:10px; border:none; font-family: 'Open Sans', sans-serif; font-size:13px; color:#fff; overflow:auto;}
+/*-------------------------------------------------
+				SOCIAL NETWORKING CLASSES
+-------------------------------------------------*/
+.social-wrapper{ background:black; height:55px; padding-top:25px;}
+.social-wrapper .row{}
+.social-wrapper .row ul{width:175px; float:right; list-style:none;}
+.social-wrapper .row ul li{float:left; padding-right:15px;}
+.social-wrapper .row ul li.no-padding{float:left; padding-right:0px;}
+/*-------------------------------------------------
+					MENU  CLASSES
+-------------------------------------------------*/
+.header{background:black; height:60px; padding-top:30px; padding-bottom: 30px; overflow:hidden;}
+.logo{float:left; width:240px;}
+.logo h1{ font-size:45px; color:#ffffff;}
+.menu{float:right; width:auto; }
+.menu ul li{ width:auto; float:left; list-style:none; }
+.menu ul li a{float:left; text-decoration:none; color:#609a1c; font-size:14px; display:block; height:60px; line-height:60px; padding-left:20px; padding-right:20px; background:#CC00CC; border-right:1px solid #85d612;}
+.menu ul li a:hover{ color:black; background:yellow;}
+.menu ul li a.active{ color:black; background:yellow;}
+/*-------------------------------------------------
+					BANNER  CLASSES
+-------------------------------------------------*/
+.banner-wrapper{width:1030px; margin:0 auto;}
+.banner-wrapper .row{background:black;}
+.banner-wrapper .controller{padding-top:30px; padding-bottom:30px; float:right;}
+.banner-wrapper .controller ul li{padding-right:10px; float:left; list-style:none;}
+.banner-wrapper .banner{width:1030px; margin:0 auto;}
+.banner .banner-bg{background:url(../images/banner-bg.jpg) no-repeat center; width:910px; height:498px; padding:0px 60px 0px 60px;}
+.banner-bg .panel{float:left; width:450px; padding-top:100px;}
+.banner-bg .panel .title h1{ color:black; font-size:33px;}
+.banner-bg .panel .content p{ font-size:20px; color:black; padding-top:30px;}
+.banner-button{width:200px; height:50px; background:black; border-left:#CC00CC solid 10px; text-align:center;margin-top:35px;}
+.banner-bg .panel .banner-button:hover{ background:#CC00CC; border-left:black solid 10px;}
+.banner-button a{color:black; line-height:50px; text-align:center; text-decoration:none; font-family: 'Oswald', sans-serif; font-size:18px;}
+.banner-button a:hover{color:black; line-height:50px; text-align:center;}
+.banner-bg .banner-img{ float:left; width:458px;}
+
+/*-------------------------------------------------
+					BOX CLASSES
+-------------------------------------------------*/
+.boxs1{float:left; background:#202b43; width:263px; padding:50px 30px 50px 30px;}
+.boxs2{float:left; background:#25314d; width:263px; padding:50px 30px 50px 30px;}
+.boxs3{float:left; background:#2a3856; width:263px; padding:50px 30px 50px 30px;}
+.title h1{ font-size:22px; color:#CC00CC; font-weight:normal;}
+.title h2{ font-size:16px; color:#CC00CC;}
+.panel-img{ margin:0 auto; padding:20px 0px 20px 0px; width:260px;}
+.content p{ color:#54657b;}
+.controller .buttons{ background:#CC00CC; line-height:30px; text-align:center; float:left;}
+.controller .buttons:hover{ background:gray; line-height:30px;}
+.controller .buttons a{ text-decoration:none; color:black;}
+.controller .buttons a:hover{color:#CC00CC;}
+/*-------------------------------------------------
+					CONTENT CLASSES
+-------------------------------------------------*/
+.content_wrap{margin:0 auto; padding:30px 30px 0px 30px;}
+p.AboutPageInfo{color: yellow;}
+/*-------------------------------------------------
+					LEFT-PANEL CLASSES
+-------------------------------------------------*/
+.left-panel{width:595px; float:left; margin-right:35px;}
+.left-panel .panel{ border:#24314c solid 1px; padding:30px 30px 40px 30px; background:#202b43; margin-bottom:30px;}
+.left-panel .panel .title{ border-bottom:#25314c solid 1px; padding-bottom:20px; margin-bottom:30px;}
+.panel .title .icons{ width:39px; height:39px; float:left; padding-right:20px;}
+.left-panel .panel .content img{ float:left; margin-right:30px;}
+.glossary-panel{border:#24314c solid 1px; padding:30px 30px 40px 30px; background:#202b43; margin-bottom:30px;}
+
+/*-------------------------------------------------
+				CENTRAL GALLERY PANEL
+---------------------------------------------------*/
+.left-panel2{width:910px; float:left; margin-right:35px;}
+.left-panel2 .panel2{ border:#24314c solid 1px; padding:30px 30px 40px 30px; background:#202b43; margin-bottom:30px;}
+.left-panel2 .panel2 .title2{ border-bottom:#25314c solid 1px; padding-bottom:20px; margin-bottom:30px;}
+.panel2 .title2 .icons2{ width:39px; height:39px; float:left; padding-right:20px;}
+.left-panel2 .panel2 .content2 img{ float:left; margin-right:30px;}
+.glossary-panel2{border:#24314c solid 1px; padding:30px 30px 40px 30px; background:#202b43; margin-bottom:30px;}
+
+.Gallery{text-align: center; max-height: 650px; max-width: 850px; overflow: auto !important;}
+h2.GalleryHeader{color: #9ccf00; text-align: center; font-family: 'Open Sans', sans-serif !important; padding-top: 0px;}
+#HeaderDesc{text-align: center; color: yellow; padding-bottom: 0px;}
+.PicBorder{border: #CC00CC solid 2px;}
+/*-------------------------------------------------
+					RIGHT-PANEL CLASSES
+-------------------------------------------------*/
+.right-panel{width:280px; float:left;}
+.right-panel .panel{ border:#24314c solid 1px; padding:30px 30px 30px 30px; background:#202b43; margin-bottom:30px;}
+.right-panel .panel .title{ border-bottom:#25314c solid 1px; padding-bottom:20px;}
+.right-panel .panel .content ul{padding-left:0px;}
+.right-panel .panel .content ul li{ list-style: url(../images/arrow-small.jpg) inside; border-bottom:#25314c solid 1px;line-height:35px;}
+.right-panel .panel .content ul li a{text-decoration:none; font-family: 'Open Sans', sans-serif; font-size:13px; color:yellow;}
+.right-panel .panel .content ul li a:hover{color:#CC00CC;}
+
+.right-panel .contact-panel{background:#CC00CC; padding:30px 30px 30px 30px;}
+.contact-panel .title{border-bottom:yellow solid 1px; padding-bottom:20px;}
+.contact-panel .title h1{ color:black;}
+.contact-panel .title h2{color:black;}
+.contact-panel .form{ padding-top:5px;}
+.contact-panel .form ul { padding-left:0px;}
+.contact-panel .form ul li{ list-style:none; padding-top:14px;}
+.contact-panel .buttons{ background:black; line-height:30px; text-align:center; float:left; margin-top:20px;}
+.contact-panel .buttons:hover{ background:gray; line-height:30px;}
+.contact-panel .buttons a{ text-decoration:none; color:#CC00CC;}
+.contact-panel .buttons a:hover{color:black;}
+.search{ border-bottom:none; margin-top:20px}
+.search ul li{list-style:none; float:left; border:none;display:block;}
+.libg{background:gray; width:180px; text-indent:5px;}
+.search-filed{width:180px; height:36px; border:none; float:left; background:none repeat scroll 0 0 transparent; text-indent:5px;font-family: 'Open Sans', sans-serif; font-size:13px; color:#fff;}
+.contact-panel.padding-bottm{padding-bottom:20px;}
+
+.address .panel { border:none; color:gray}
+.address .panel .title h1 {  color:#CC00CC; padding-bottom:10px;}
+.address .panel .content p{color:gray;}
+.address .panel .content p span { color:gray;}
+
+
+/*-------------------------------------------------
+					PORTFOLIO CLASSES
+-------------------------------------------------*/
+
+.portfolio { overflow:hidden; width:900px; margin:0 auto; height: 980px;}
+.portfolio .title h2{ font-size:14px; font-weight:normal;padding-bottom:20px; margin-bottom:30px; padding-top:10px;}
+.portfolio .panel { width:278px; border:none;  background:#202b43; float:left; margin-bottom:30px; border:#24314c solid 1px;}
+.portfolio .panel .content { padding:10px; padding-bottom:20px;}
+.portfolio .panel .content p{ padding-bottom:20px;}
+.portfolio .panel .content p span{ padding-bottom:10px; border-bottom: 1px solid #24314c;  color:#CC00CC; display:block;}
+.portfolio .panel .content a { color:black; background:#CC00CC; padding:7px; text-decoration:none; font-family: 'Open Sans', sans-serif; font-weight:normal; font-size:13px;}
+.portfolio .panel .content a:hover { background:gray;}
+.portfolio .panel .content img{ padding-bottom:10px;}
+
+
+/*-------------------------------------------------
+					FOOTER CLASSES
+-------------------------------------------------*/
+.footer-wrapper{ background:black; margin-top:40px;}
+.footer{ width:970px;margin:0 auto;} 
+.footer .panel{border-right:#38445a solid 1px;float:left; width:290px; padding-left:30px; padding-top:60px;padding-bottom:60px; background:none;} 
+.footer .panel.title{background:none;}
+.footer h1{ font-size:22px;font-weight:normal;}
+.footer h3{ font-size:22px;font-weight:normal; color:#fff;}
+.footer .panel.title h2{ font-size:16px; color:#CC00CC; padding-top:15px;}
+.footer .panel .content{padding-top:30px;}
+.footer .panel .content p{ color:#54657b;line-height:22px; padding-bottom:0px;}
+.footer .panel .content p a{ color:#54657b;text-decoration:none;}
+.footer .panel .content p a:hover{ color:#ffffff;}
+.footer .panel .content p a.active{ color:#ffffff;}
+.footer .panel .content p h2{font-size:25px; color:#ffffff;}
+.footer .panel.border-right{border-right:none;}
+
+/*-------------------------------------
+		     	GOOGLE MAPS
+--------------------------------------*/
+#map{width: 520; height: 250; border: 3px solid #CC00CC;}
+#map2{width: 520; height: 250; border: 3px solid #CC00CC;}
+
+/*-------------------------------------
+                Glossary
+ --------------------------------------*/
+.GlossLetters{color: yellow; display: inline; border-right: 1px solid #2B2B2B; margin-right: 6px;}
+.GlossLetters:last-child{margin-right: none; border-right: none;}
+#Glossary{padding-top: 15px; text-align: center;}
+a.GlossLetters{color: yellow}
+a.GlossLetters:hover{color: #CC00CC; text-decoration: underline;}
+a.GlossLetters:active{color: #CC00CC; text-decoration: underline;}
+#GlossaryHeader{text-align: center}
+
+.LetterList{text-align: left; margin-left: 30px; text-decoration: none; list-style-type: none; color: #CC00CC; margin-bottom: 25px; font-size: 35px; font-family: Verdana}
+.LetterList:first-child{margin-top: 35px; padding-bottom: none;}
+
+.terms{color: yellow; text-align: left; padding-left: 75px;}
+.termname{color: #CC00CC; text-decoration: underline; display: inline;}
+
+#GoToTop{float: right; margin-right: 350px; margin-top: 50px; background-color: #CC00CC; position: fixed; padding: 5px; border: 2px solid #2B2B2B; margin-left: 350px; margin-top: 320px; border-radius: 8px;}
+#GoToTopText{font-family: 'Open Sans'; color: black;}
+
+#TopLink:hover{color: black; text-decoration: underline; font-weight: bold;}
+
+
+/*--------------------------------------------
+				PAGE NAVIGATION
+----------------------------------------------*/
+#AboutPageNav {padding-top: 15px; text-align: center;}
+.AboutPageNo{color: yellow; display: inline; margin-right: 10px;}
+a.AboutPageNo:last-child{margin-right: none; border-right: none;}
+a.AboutPageNo:hover{color: #CC00CC; text-decoration: underline;}
+.ActiveAboutPageLink{color: #CC00CC; text-decoration: underline;}
+
+.PageNumbers{text-align: center; color: #CC00CC !important; font-size: 16px; padding-bottom: 0px; padding-top: 0px; text-decoration: none;}
+
+/*----------------------------------------------
+					IMAGE HOVER
+-----------------------------------------------*/
+.imageHover {overflow: hidden; width: 100%;}
+.imageHover img {-moz-transition: -moz-transform 0.2s ease-out; -webkit-transition: -webkit-transform 0.2s ease-out; -ms-transition: -ms-transform 0.2s ease-out; transition: transform 0.2s ease-out; width: 100%;}
+.imageHover:hover img {-moz-transform: scale(1.05); -webkit-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05);}
+
+/*---------------------------------------------
+					HIGH CONTRAST
+----------------------------------------------*/
+.HighContrast{padding: 5px; border-radius: 5px; border-color: #CC00CC; text-align: center;}
+.HighContrastText{padding-left: 5px; color: #CC00CC; font-family: 'Open Sans'; display: inline;}
+#StandardText{display: inline; padding-left: 5px;}
+.ContrastButtonList{text-decoration: none; display: inline; list-style: none;}
+.ContrastButtonList:last-child{display: inline;}
